@@ -1,5 +1,5 @@
-# Parasites: Blood Dawn
-![](Documents/icon_white.png)![](Documents/icon.png)
+# 7 Days  - No Survivors
+![](Documents/icon_white_bg.png)![](Documents/icon_bg.png)
 
 WIKI地址：暂无
 
