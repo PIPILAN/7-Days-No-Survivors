@@ -3,7 +3,7 @@
 
 WIKI地址：暂无
 
-[更新记录与更新计划](Changelog.md) | [下载地址(暂无)](暂无)
+[更新记录与更新计划](Changelog.md) | [下载地址(暂无)](https://afdian.net/a/pipilan)
 
 ---
 
