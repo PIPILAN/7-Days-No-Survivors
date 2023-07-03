@@ -1,0 +1,19 @@
+{
+    "name": "电解",
+    "icon": "sevendaystomine:separator",
+    "category": "patchouli:chemical_manual",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:separator",
+            "text":"电解是一种产生特定反应的方法，否则就不会发生这种反应。一个常见的用法是分离。电流通过溶液，正离子移动到阴极，同时，负离子向阳极移动。"
+        },
+        {
+            "type":"image",
+            "title": "奇怪的分离配方",
+            "images":["patchouli:textures/entries/chicken_separator.png"],
+            "text":"这不符合科学！但是就是能发生！"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "煤炭发电",
+    "icon": "sevendaystomine:generator_combustion",
+    "category": "patchouli:power_manual",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:coal_generator",
+            "text":"燃料发电机是最简单也是最脏的发电方式。它通过燃烧可燃物将热能转化为电能（包括煤炭、木炭、木板等），能有较为不错的电能输出。但是很容易过热。"
+        }
+    ]
+}

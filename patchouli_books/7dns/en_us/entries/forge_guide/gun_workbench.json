@@ -1,0 +1,16 @@
+{
+    "name": "枪械制作",
+    "icon": "tac:workbench",
+    "category": "patchouli:forge_guide",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type":"text",
+            "text":"在你学会锻造以后你也可以着手制作一个属于自己的枪械工作台了。你可以在这里制作枪械、配件、子弹、手雷等。$(br2)当然，你只是有了一个工作台，如果你想制作其中的物品，你大概率还需要相关技能书或者结构图来让自己有制作的能力。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:tac_workdbench"
+        }
+    ]
+}

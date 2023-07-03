@@ -1,0 +1,476 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/fancymenu/textures/7dns/bg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-left
+  x = 40
+  action = movebutton
+  y = 4
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 85
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\textures\7dns\zh_mulitplayer_e.png
+  backgroundnormal = resources\fancymenu\textures\7dns\zh_mulitplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  vr:value:language = zh_cn
+  action = vanilla_button_visibility_requirements
+  vr:showif:language = true
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\textures\7dns\select.png
+  backgroundnormal = resources\fancymenu\textures\7dns\none.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 40
+  action = movebutton
+  y = 54
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 85
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\textures\7dns\zh_settings_e.png
+  backgroundnormal = resources\fancymenu\textures\7dns\zh_settings.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  vr:value:language = zh_cn
+  action = vanilla_button_visibility_requirements
+  vr:showif:language = true
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-left
+  x = 40
+  action = movebutton
+  y = 79
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 85
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\textures\7dns\zh_exit_e.png
+  backgroundnormal = resources\fancymenu\textures\7dns\zh_exit.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  vr:value:language = zh_cn
+  action = vanilla_button_visibility_requirements
+  vr:showif:language = true
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 40
+  action = movebutton
+  y = -21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 85
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\textures\7dns\zh_start_e.png
+  backgroundnormal = resources\fancymenu\textures\7dns\zh_start.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  vr:value:language = zh_cn
+  action = vanilla_button_visibility_requirements
+  vr:showif:language = true
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-left
+  x = 40
+  action = movebutton
+  y = 29
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 85
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\textures\7dns\zh_mod_e.png
+  backgroundnormal = resources\fancymenu\textures\7dns\zh_mod.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  vr:value:language = zh_cn
+  action = vanilla_button_visibility_requirements
+  vr:showif:language = true
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\textures\7dns\select.png
+  backgroundnormal = resources\fancymenu\textures\7dns\none.png
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 226
+  width = 189
+  action = deep_customization_element:title_screen_forge_top
+  actionid = d52f2e8e-e03f-4e10-8969-f82d05d5a7cd1688016956294
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 93
+  action = deep_customization_element:title_screen_branding
+  actionid = aee35f29-acd4-48f5-9607-294bc3618c061688016956301
+  y = 286
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 474
+  width = 165
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = f5490578-9bb1-4d55-abee-e3e968dc43961688016956301
+  y = 318
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c947b854-1ea7-4819-8087-285acd40ffd51688016956301
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 86ceb986-2fd5-4cae-992c-b3f6d8c704e21688016956301
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = f691b973-f527-4237-bbf8-5b4ee5b61acc1688016956301
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 022cd9ce-e534-4bdb-b300-250d2454bb1c1688017032591
+  y = -11
+  scale = 1.0
+  alignment = left
+  value = 1.0
+}
+
+customization {
+  orientation = mid-left
+  vr:value:language = zh_cn
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\fancymenu\textures\7dns\en_start_e.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 40
+  width = 85
+  actionid = 749bc1a4-a68e-40eb-a01f-94f61d6debe81688026270344
+  action = addbutton
+  y = -21
+  vr:showif:language = false
+  backgroundnormal = resources\fancymenu\textures\7dns\en_start.png
+  value = net.minecraft.client.gui.screen.WorldSelectionScreen
+  height = 22
+}
+
+customization {
+  orientation = mid-left
+  vr:value:language = zh_cn
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\fancymenu\textures\7dns\en_multiplayer_e.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 40
+  width = 85
+  actionid = c21061e4-867d-4e88-98e9-f9026cff6f8f1688026546697
+  action = addbutton
+  y = 4
+  vr:showif:language = false
+  backgroundnormal = resources\fancymenu\textures\7dns\en_multiplayer.png
+  value = net.minecraft.client.gui.screen.MultiplayerScreen
+  height = 22
+}
+
+customization {
+  orientation = mid-left
+  vr:value:language = zh_cn
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\fancymenu\textures\7dns\en_mods_e.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 40
+  width = 85
+  actionid = 83b09410-4cec-4162-814a-0e342a63f8331688026605148
+  action = addbutton
+  y = 29
+  vr:showif:language = false
+  backgroundnormal = resources\fancymenu\textures\7dns\en_mods.png
+  value = com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen
+  height = 22
+}
+
+customization {
+  orientation = mid-left
+  vr:value:language = zh_cn
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = resources\fancymenu\textures\7dns\en_settings_e.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 40
+  width = 85
+  actionid = 115d0f45-4f75-4006-a81f-d9fb201cc3b51688026659094
+  action = addbutton
+  y = 54
+  vr:showif:language = false
+  backgroundnormal = resources\fancymenu\textures\7dns\en_settings.png
+  value = net.minecraft.client.gui.screen.OptionsScreen
+  height = 22
+}
+
+customization {
+  orientation = mid-left
+  vr:value:language = zh_cn
+  restartbackgroundanimations = true
+  buttonaction = quitgame
+  backgroundhovered = resources\fancymenu\textures\7dns\en_exit_e.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 40
+  width = 85
+  actionid = 81a8b8df-5961-4a81-84b3-5c763b9959f51688026682764
+  action = addbutton
+  y = 79
+  vr:showif:language = false
+  backgroundnormal = resources\fancymenu\textures\7dns\en_exit_.png
+  value = 
+  height = 22
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\fancymenu\textures\7dns\afdian_new.png
+  label = 
+  loopbackgroundanimations = true
+  x = -26
+  width = 16
+  actionid = 6ed47aac-749c-4b2c-9d62-12bb41934d0e1688027189439
+  action = addbutton
+  y = -35
+  backgroundnormal = resources\fancymenu\textures\7dns\afdian_new.png
+  value = https://afdian.net/@pipilan
+  height = 16
+}
+
+customization {
+  path = resources/fancymenu/textures/7dns/logo.png
+  orientation = mid-left
+  x = 31
+  width = 144
+  action = addtexture
+  actionid = 731fe703-5918-4ebe-ac8c-3441120f63941688361914962
+  y = -108
+  height = 72
+}
+

@@ -1,0 +1,46 @@
+
+[render]
+	#The red channel of the bloodmoon color
+	#Range: 0.0 ~ 1.0
+	blodmoonColorR = 1.0
+	#Should use the custom player renderer (used for aiming in 3rd person, rotating the player while riding the minibike, etc..)?
+	player_renderer = true
+	#Should render blood particles?
+	bloodParticles = true
+	#How far does the fog blend sample from
+	#Range: 0 ~ 16
+	wastelandFogBlend = 0
+	#The green channel of the bloodmoon color
+	#Range: 0.0 ~ 1.0
+	blodmoonColorG = 0.0
+	#Should use custom hand rendeing in first person (with guns)? Not recommended to turn off, as results might be questionable. Could be useful with mods that affect hand rendering (maybe something like Vivecraft)
+	custom_gun_hands = true
+	#Should use vanilla code for rendering CCTV cameras instead of the code possibly injected by mods like Optfine
+	use_vanilla_camera_rendering = true
+	#The blue channel of the bloodmoon color
+	#Range: 0.0 ~ 1.0
+	blodmoonColorB = 0.0
+	#Should colorize sky during bloodmoons?
+	bloodmoonSky = true
+	#Should draw the muzzle flash?
+	muzzle_flash = false
+	#Should the camera roll while turning a minibike?
+	minibike_camera_roll = true
+	#Should use GLSL sahders for drunk/bleeding effects?
+	postprocessing_shaders = true
+	#Should use draw the void-fog-like particles in burnt biomes?
+	burnt_forest_particles = true
+	#Should use the old thirst/stamina bar?
+	oldHUD = false
+	#Should use custom particles?
+	particles = true
+	#Should render the fog in the wasteland/burnt biomes?
+	wasteland_fog = false
+
+[gui]
+	#"Should use the custom menu?
+	custom_menu = false
+	#Should use custom sky (for bloodmons,etc..)?
+	#Allowed Values: LEFT_BOTTOM, LEFT_TOP, RIGHT_TOP, RIGHT_BOTTOM
+	hud_position = "LEFT_BOTTOM"
+

@@ -1,0 +1,6 @@
+{
+	"name": "子弹手册",
+	"description": "这章节讲述了从废料到可使用的子弹的全过程$(br2)$(c)本章节相关内容需解锁科技子弹手册后才可正常制作。",
+	"icon": "contenttweaker:b_762x39ra",
+    "sortnum": 4
+}

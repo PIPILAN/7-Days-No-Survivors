@@ -1,0 +1,7 @@
+{
+	"name": "pplans.7dns.guidebook.name",
+	"landing_text": "pplans.7dns.guidebook.text",
+	"version": 1,
+	"book_texture": "patchouli:textures/gui/book_purple.png",
+	"model": "patchouli:book_purple"
+}

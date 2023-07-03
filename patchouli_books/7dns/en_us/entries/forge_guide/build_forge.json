@@ -1,0 +1,17 @@
+{
+    "name": "建造锻炉",
+    "icon": "sevendaystomine:forge",
+    "category": "patchouli:forge_guide",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type":"text",
+            "text":"如果你开始想锻造一些东西，那么你需要做的第一件事就是制作锻炉。如果你已经收集了几乎所有种类的材料，那么对你来说建造一个锻炉是很容易的。大多数锻炉都是用一些不易燃烧的材料建造而成的，例如石头。$(br2)但这还不足以融化金属，你需要向锻炉输送更多的氧气，所以你需要一个风箱。最后一件你需要做的事是用管子做一个烟筒。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:bellows",
+            "recipe2":"sevendaystomine:forge"
+        }
+    ]
+}

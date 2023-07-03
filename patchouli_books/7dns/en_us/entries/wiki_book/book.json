@@ -1,0 +1,13 @@
+{
+    "name": "百科全书",
+    "icon": "minecraft:written_book",
+    "category": "patchouli:wiki_book",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"7dns:wiki_book",
+            "text":"这本书是非常重要的教学书$(br2)如果不慎丢失，可以用上图配方制作。"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "化学站",
+    "icon": "sevendaystomine:chemistry_station",
+    "category": "patchouli:chemical_manual",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:chemistry_station",
+            "text":"化学站是由一个分装瓶、蒸馏冷凝器、几个试管和一个烧杯组成。该工作站的目的是从其他集中材料中提取或反应等制出一种新材料。"
+        },
+        {
+            "type":"image",
+            "title": "化学站合成配方",
+            "images":["patchouli:textures/entries/chemical_station.png"]
+        }
+    ]
+}

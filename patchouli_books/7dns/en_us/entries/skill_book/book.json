@@ -1,0 +1,66 @@
+{
+    "name": "技能书",
+    "icon": "sevendaystomine:book_forging",
+    "category": "patchouli:skill_book",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type":"text",
+            "text":"技能书是你学习科技的唯一方法，在你找到技能书后只需要阅读（右键）一下即可，无需查看书籍内容相关书籍内容已过时。新编制的书籍内容你可以在本书中找到相应的章节。"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:survival_guide",
+            "text":"这是一个教你如何在这个世界中如何活下去的章节。$(br)$(br2)对应 <生存指南> 章节$(br2)$(br2)$(l:survival_guide/primitive_tool)跳转至 生存指南 - 原始工具"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:book_forging",
+            "text":"这是一个教你如何锻造、冶炼、制造的章节。$(br)$(br2)对应 <锻造指南> 章节$(br2)$(br2)$(l:forge_guide/build_forge)跳转至 锻造指南 - 建造锻炉"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:book_ammo",
+            "text":"这是一个教你如何制造子弹的章节。$(br)$(br2)对应 <子弹手册> 章节$(br2)$(br2)$(l:bullet_manual/bullet_parts)跳转至 子弹手册 - 子弹零件"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:book_computers",
+            "text":"这是一个教你自动化防御的章节。$(br)$(br2)对应 <计算机指南> 章节$(br2)$(br2)$(l:computer_guide/auto_turret)跳转至 计算机指南 - 自动炮塔"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:book_concrete",
+            "text":"这是一个教你如何强化避难所的章节。$(br)$(br2)对应 <土木工程> 章节$(br2)$(br2)$(l:civil_engineering/make_cement)跳转至 土木工程 - 获取水泥"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:book_electricity",
+            "text":"这是一个教你如何生产和使用电能的章节。$(br)$(br2)对应 <电力手册> 章节$(br2)$(br2)$(l:power_manual/coal_generator)跳转至 电力手册 - 煤炭发电"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:book_chemistry",
+            "text":"这是一个教你化学原理和制造的章节。$(br)$(br2)对应 <化学手册> 章节$(br2)$(br2)$(l:chemical_manual/chemical_station)跳转至 化学手册 - 化学站"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:book_metalworking",
+            "text":"这是一个教你如何制造更复杂的物品的章节。$(br)$(br2)对应 <工作台手册> 章节$(br2)$(br2)$(l:workbench_guide/workbench)跳转至 工作台手册 - 工作台"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:book_minibike",
+            "text":"这是一个教你制造小型机车的章节。$(br)$(br2)对应 <小型机车手册> 章节$(br2)$(br2)$(l:minibike/minibike_parts)跳转至 小型机车手册 - 机车零件"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "原始服装",
+    "icon": "sevendaystomine:fiber_chestplate",
+    "category": "patchouli:survival_guide",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type":"text",
+            "text":"衣服可以额外抵抗很多不同的环境影响。当然，你没法制作100%含棉的衣物。但是你可以用植物纤维制作一套聊胜于无的服装。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:fiber_hat",
+            "recipe2":"sevendaystomine:fiber_chestplate"
+        },
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:fiber_leggings",
+            "recipe2":"sevendaystomine:fiber_boots"
+        }
+    ]
+}

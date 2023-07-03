@@ -1,0 +1,20 @@
+{
+    "name": "燃气发电机",
+    "icon": "sevendaystomine:generator_gas",
+    "category": "patchouli:power_manual",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:generator_gas",
+            "text":"燃气发电机基本上是燃料发电机的更高效也更清洁的版本。最大的区别是它不可以使用煤炭这样的固态燃料，而是需要燃烧汽油。"
+        },
+        {
+            "type":"image",
+            "title": "燃气发电机合成配方",
+            "images":["patchouli:textures/entries/gas.png"],
+            "text": "温度越高产电越多。容易过热，建议使用水/冰进行冷却或者达到使用温度计控制发电机。"
+        }
+    ]
+}

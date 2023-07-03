@@ -1,0 +1,494 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 9
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 40,
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 140,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 60,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 20,
+          "name": "sevendaystomine:bandage",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 40,
+          "name": "sevendaystomine:cloth",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "sevendaystomine:fragmentation_grenade",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "sevendaystomine:chlorine_grenade",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "sevendaystomine:molotov",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "tac:light_grenade",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "tac:baseball_grenade",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "tac:sti2011"
+        },
+        {
+          "type": "item",
+          "weight": 38,
+          "name": "tac:round45",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "tac:762x39",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "tac:nato_556_bullet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "tac:win_30-30",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "sevendaystomine:army_knife",
+          "functions": [
+            {
+              "function": "sevendaystomine:random_quality",
+              "quality": {
+                "min": 1,
+                "max": 600
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 1
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "sevendaystomine:bullet_casing",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 300
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "sevendaystomine:mp5_trigger",
+          "functions": [
+            {
+              "function": "sevendaystomine:random_quality",
+              "quality": {
+                "min": 1,
+                "max": 600
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "sevendaystomine:mp5_stock",
+          "functions": [
+            {
+              "function": "sevendaystomine:random_quality",
+              "quality": {
+                "min": 1,
+                "max": 600
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "sevendaystomine:mp5_barrel",
+          "functions": [
+            {
+              "function": "sevendaystomine:random_quality",
+              "quality": {
+                "min": 1,
+                "max": 600
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "sevendaystomine:sniper_rifle_trigger",
+          "functions": [
+            {
+              "function": "sevendaystomine:random_quality",
+              "quality": {
+                "min": 1,
+                "max": 600
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "sevendaystomine:sniper_rifle_barrel",
+          "functions": [
+            {
+              "function": "sevendaystomine:random_quality",
+              "quality": {
+                "min": 1,
+                "max": 600
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "sevendaystomine:sniper_rifle_stock",
+          "functions": [
+            {
+              "function": "sevendaystomine:random_quality",
+              "quality": {
+                "min": 1,
+                "max": 600
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "tac:hk_mp5a5"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "tac:mp7"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "tac:m4"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "tac:ak47"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "tac:m24"
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "sevendaystomine:military_helmet",
+          "functions": [
+            {
+              "function": "sevendaystomine:random_quality",
+              "quality": {
+                "min": 1,
+                "max": 600
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "sevendaystomine:military_chestplate",
+          "functions": [
+            {
+              "function": "sevendaystomine:random_quality",
+              "quality": {
+                "min": 1,
+                "max": 600
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 1
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "sevendaystomine:military_leggings",
+          "functions": [
+            {
+              "function": "sevendaystomine:random_quality",
+              "quality": {
+                "min": 1,
+                "max": 600
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 1
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "sevendaystomine:military_boots",
+          "functions": [
+            {
+              "function": "sevendaystomine:random_quality",
+              "quality": {
+                "min": 1,
+                "max": 600
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.5,
+                "max": 1
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "sevendaystomine:mre"
+        }
+      ]
+    }
+  ]
+}

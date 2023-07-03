@@ -1,0 +1,17 @@
+{
+    "name": "温暖营火",
+    "icon": "minecraft:campfire",
+    "category": "patchouli:survival_guide",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type":"text",
+            "text":"火非常重要。它可以在晚上给你提供光和热，也可以让你做饭、烧烤、烘培、蒸馏等。这是你首先也是必须尝试获得的东西。如果你有幸找到了烤盘，你可以直接用烤盘把烹饪锅架在营火上使用。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:campfire",
+            "recipe2":"minecraft:campfire"
+        }
+    ]
+}

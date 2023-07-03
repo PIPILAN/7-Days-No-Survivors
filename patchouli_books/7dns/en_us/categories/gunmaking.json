@@ -1,0 +1,6 @@
+{
+	"name": "枪械生产",
+	"description": "这应该是每个生存者最关心的事情了....",
+	"icon": "tac:ak47",
+    "sortnum": 11
+}

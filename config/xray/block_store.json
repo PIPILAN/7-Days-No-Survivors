@@ -1,0 +1,100 @@
+[
+  {
+    "name": "煤矿石",
+    "blockName": "minecraft:coal_ore",
+    "order": 0,
+    "color": 4020961,
+    "drawing": false
+  },
+  {
+    "name": "漏斗",
+    "blockName": "minecraft:hopper",
+    "order": 13,
+    "color": 65280,
+    "drawing": false
+  },
+  {
+    "name": "钻石矿石",
+    "blockName": "minecraft:diamond_ore",
+    "order": 1,
+    "color": 6011884,
+    "drawing": false
+  },
+  {
+    "name": "损坏的电视机",
+    "blockName": "sevendaystomine:television_broken",
+    "order": 12,
+    "color": 255,
+    "drawing": false
+  },
+  {
+    "name": "显示器",
+    "blockName": "sevendaystomine:monitor_off",
+    "order": 11,
+    "color": 16711680,
+    "drawing": false
+  },
+  {
+    "name": "绿宝石矿石",
+    "blockName": "minecraft:emerald_ore",
+    "order": 2,
+    "color": 13453267,
+    "drawing": false
+  },
+  {
+    "name": "青金石矿石",
+    "blockName": "minecraft:lapis_ore",
+    "order": 6,
+    "color": 12436164,
+    "drawing": false
+  },
+  {
+    "name": "远古残骸",
+    "blockName": "minecraft:ancient_debris",
+    "order": 9,
+    "color": 10008114,
+    "drawing": false
+  },
+  {
+    "name": "红石矿石",
+    "blockName": "minecraft:redstone_ore",
+    "order": 7,
+    "color": 9362373,
+    "drawing": false
+  },
+  {
+    "name": "金矿石",
+    "blockName": "minecraft:gold_ore",
+    "order": 3,
+    "color": 2114746,
+    "drawing": false
+  },
+  {
+    "name": "铁矿石",
+    "blockName": "minecraft:iron_ore",
+    "order": 5,
+    "color": 3149255,
+    "drawing": false
+  },
+  {
+    "name": "下界石英矿石",
+    "blockName": "minecraft:nether_quartz_ore",
+    "order": 8,
+    "color": 777795,
+    "drawing": false
+  },
+  {
+    "name": "下界金矿石",
+    "blockName": "minecraft:nether_gold_ore",
+    "order": 4,
+    "color": 8700065,
+    "drawing": false
+  },
+  {
+    "name": "密码保险箱",
+    "blockName": "sevendaystomine:code_safe",
+    "order": 14,
+    "color": 16776960,
+    "drawing": true
+  }
+]

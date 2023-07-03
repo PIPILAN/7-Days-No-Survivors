@@ -1,0 +1,32 @@
+{
+    "name": "车体组装",
+    "icon": "sevendaystomine:small_engine",
+    "category": "patchouli:minibike",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type":"text",
+            "text":"为了组装小型机车，你需要之前提到过的那些零件，比如：小型引擎、汽车电池、车轮、车把以及座椅。虽然大多零件你可以自己制作，但部分零件你不得不去购买。$(br2)当你有了所有的零件后将底盘放在地上，然后将零件装在车体上（蹲下+右键）。之后你还需要给机车加汽油，机车的仪表盘会显示油量。"
+        },
+        {
+            "type":"image",
+            "title": "底盘合成配方",
+            "images":["patchouli:textures/entries/minibike_chassis.png"]
+        },
+        {
+            "type":"image",
+            "title": "把手合成配方",
+            "images":["patchouli:textures/entries/minibike_handles.png"]
+        },
+        {
+            "type":"image",
+            "title": "座椅合成配方",
+            "images":["patchouli:textures/entries/minibike_seat.png"]
+        },
+        {
+            "type":"image",
+            "title": "车轮合成配方",
+            "images":["patchouli:textures/entries/minibike_wheel.png"]
+        }
+    ]
+}

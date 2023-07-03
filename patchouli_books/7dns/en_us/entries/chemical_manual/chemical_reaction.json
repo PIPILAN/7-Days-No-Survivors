@@ -1,0 +1,28 @@
+{
+    "name": "化学反应",
+    "icon": "sevendaystomine:salt",
+    "category": "patchouli:chemical_manual",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type":"image",
+            "title": "火药",
+            "images":["patchouli:textures/entries/chemical_gunpowder.png"]
+        },
+        {
+            "type":"image",
+            "title": "盐",
+            "images":["patchouli:textures/entries/chemical_salt.png"]
+        },
+        {
+            "type":"image",
+            "title": "啤酒",
+            "images":["patchouli:textures/entries/chemical_bear.png"]
+        },
+        {
+            "type":"image",
+            "title": "啤酒",
+            "images":["patchouli:textures/entries/chemical_bear2.png"]
+        }
+    ]
+}

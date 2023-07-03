@@ -1,0 +1,6 @@
+{
+	"name": "锻造指南",
+	"description": "这章节会教你如何制造、锻造、冶炼，让你成为一位高技术力的铁匠、金工等。$(br2)$(c)本章节相关内容需解锁科技锻造指南后才可正常制作。",
+	"icon": "sevendaystomine:forge",
+    "sortnum": 3
+}

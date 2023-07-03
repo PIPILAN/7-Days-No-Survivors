@@ -1,0 +1,30 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.OptionsScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  x = -75
+  width = 150
+  actionid = 0eef9aa2-0ad3-4e8b-b0f3-c47bdabc484e1688365727169
+  action = addbutton
+  y = 28
+  label = 模组列表
+  value = com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen
+  height = 20
+}
+

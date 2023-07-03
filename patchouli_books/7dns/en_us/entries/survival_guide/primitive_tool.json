@@ -1,0 +1,22 @@
+{
+    "name": "原始工具",
+    "icon": "sevendaystomine:stone_axe",
+    "category": "patchouli:survival_guide",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type":"text",
+            "text":"工具是非常重要的。可以毫不夸张地说，人类与普通动物的不同就是因为人类会使用工具。使用工具可以让我们改变周遭的环境，制造一些只有人类才能使用的物件。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:stone_axe",
+            "text":"$(br)基本的通用工具。$(br2)可以用作采矿工具，话可以用于框架升级和修复工具。$(br2)一开始你并没有什么材料，所以你只能将就着用。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:stone_shovel",
+            "text":"$(br)基本的工具。$(br2)可以用作挖掘泥土等。$(br2)如你所见，这些工具是有品质的，但这不是我们现在要讨论的内容。"
+        }
+    ]
+}

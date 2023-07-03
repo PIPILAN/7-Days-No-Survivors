@@ -1,0 +1,68 @@
+{
+    "name": "金属清单",
+    "icon": "minecraft:iron_ore",
+    "category": "patchouli:forge_guide",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"minecraft:iron_ore",
+            "text":"普通、耐用的金属，可以用于炼钢。"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"minecraft:gold_ore",
+            "text":"稀有、柔软的金属，优秀的导电体。"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:copper_ore",
+            "text":"罕见、柔软的金属，优秀的导电体。可以用于合金。"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:tin_ore",
+            "text":"稀有、柔软的金属。可以用于合金。"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:zinc_ore",
+            "text":"普通、柔软的金属，可以用于合金（黄铜）。"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:lead_ore",
+            "text":"稀有、有毒的金属，可以用于蓄电池和弹头。"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:cinnabar_ore",
+            "text":"液态、有毒金属。"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:brass_ingot",
+            "text":"一种合金。铜和锌的混合物，比例为2：1。"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:bronze_ingot",
+            "text":"一种合金。铜和锡的混合物，比例为2：1。"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:steel_ingot",
+            "text":"一种合金。铁和碳的混合物，比例为2：1。"
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+{
+	"type": "minecraft:generic",
+	"pools": [{
+		"rolls": {
+			"min": 1,
+			"max": 9
+		},
+		"entries": [{
+				"type": "item",
+				"weight": 45,
+				"name": "minecraft:paper",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 4
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 80,
+				"name": "minecraft:rotten_flesh",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 4
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 50,
+				"name": "minecraft:bone",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 4
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 1,
+				"name": "sevendaystomine:bottled_water",
+				"quality": 20,
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 2
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 25,
+				"name": "sevendaystomine:bandage",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 5
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 30,
+				"name": "sevendaystomine:cloth",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 5
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 7,
+				"name": "tac:m1911"
+			},
+			{
+				"type": "item",
+				"weight": 30,
+				"name": "sevendaystomine:cent",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 3
+					}
+				}]
+			},
+			{
+				"type": "empty",
+				"weight": 300
+			},
+			{
+				"type": "item",
+				"weight": 6,
+				"name": "tac:glock_17"
+			},
+			{
+				"type": "item",
+				"weight": 1,
+				"name": "tac:m870_classic"
+			},
+			{
+				"type": "item",
+				"weight": 3,
+				"name": "tac:db_short"
+			},
+			{
+				"type": "item",
+				"weight": 18,
+				"name": "tac:round45",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 6
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 10,
+				"name": "tac:9mm_round",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 6
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 8,
+				"name": "tac:10_gauge_round",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 6
+					}
+				}]
+			}
+		]
+	}]
+}

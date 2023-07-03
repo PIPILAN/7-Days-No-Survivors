@@ -1,0 +1,19 @@
+{
+    "name": "获取水泥",
+    "icon": "sevendaystomine:cement",
+    "category": "patchouli:civil_engineering",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:cement_mold",
+            "text":"混凝土由沙子、水和水泥组成。如果你已经有了锻炉，那么对你来说制造水泥很简单。$(br2)首先，你需要一个混凝土模具。其次，你还需要一些小石头。"
+        },
+        {
+            "type":"image",
+            "title": "水泥生产",
+            "images":["patchouli:textures/entries/forge_cement.png"],
+            "text": "把它们放在锻炉中，过一段时间，你就可以获得一些水泥。"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "钢筋混凝土",
+    "icon": "sevendaystomine:reinforced_concrete",
+    "category": "patchouli:civil_engineering",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type":"text",
+            "text":"钢筋混凝土是目前来说最坚硬的方块（不包括基岩）。正因如此，钢筋混凝土的制造并没有那么简单，它需要你付出一些时间才能得到。$(br2)首先，你需要在工作台上用管道组成一个钢筋框架，然后将钢筋框架用于建设。$(br2)手里拿着一些施工工具，比如石斧、羊角锤、扳手等，以及一些木板。"
+        },
+        {
+            "type":"image",
+            "title": "钢筋框架合成配方",
+            "images":["patchouli:textures/entries/rebar_frame.png"],
+            "text": "用工具右键把木板打到钢筋框架上。"
+        },
+        {
+            "type":"text",
+            "text":"然后拿一些混凝土混合料，把它倒在你打好了木板的夹板钢筋架里，就变成了未凝固的钢筋混凝土。之后登上一段时间，就会凝固成钢筋混凝土了。"
+        }
+    ]
+}

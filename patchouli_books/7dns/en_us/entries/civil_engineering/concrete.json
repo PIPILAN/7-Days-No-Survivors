@@ -1,0 +1,13 @@
+{
+    "name": "混凝土",
+    "icon": "minecraft:white_concrete_powder",
+    "category": "patchouli:civil_engineering",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"minecraft:white_concrete_powder",
+            "text":"制造混凝土块就像浇筑混凝土一样简单。在工作台上搅拌染料和混凝土混合料即可。但与钢筋混凝土相比，这种混凝土的耐用性要低得多。"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+	"name": "工作台指南",
+	"description": "这一章会教你如何制造更高级的工作台以及一些基础金属加工。$(br2)$(c)本章节相关内容需解锁科技工作台指南后才可正常制作。",
+	"icon": "sevendaystomine:workbench",
+    "sortnum": 9
+}

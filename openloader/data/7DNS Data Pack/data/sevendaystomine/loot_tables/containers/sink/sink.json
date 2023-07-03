@@ -1,0 +1,86 @@
+{
+	"type": "minecraft:generic",
+	"pools": [{
+		"name": "sink",
+		"rolls": {
+			"min": 1,
+			"max": 5
+		},
+		"entries": [{
+				"type": "item",
+				"weight": 1,
+				"name": "minecraft:paper"
+			},
+			{
+				"type": "item",
+				"weight": 40,
+				"name": "sevendaystomine:cloth"
+			},
+			{
+				"type": "item",
+				"weight": 25,
+				"name": "sevendaystomine:empty_jar"
+			},
+			{
+				"type": "item",
+				"weight": 20,
+				"name": "minecraft:rotten_flesh"
+			},
+			{
+				"type": "item",
+				"weight": 25,
+				"name": "sevendaystomine:bottled_murky_water"
+			},
+			{
+				"type": "item",
+				"weight": 1,
+				"name": "minecraft:diamond"
+			},
+			{
+				"type": "item",
+				"weight": 10,
+				"name": "sevendaystomine:cent"
+			},
+			{
+				"type": "empty",
+				"weight": 100
+			},
+			{
+				"type": "item",
+				"weight": 1,
+				"name": "tac:round45",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 6
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 1,
+				"name": "tac:9mm_round",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 6
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 1,
+				"name": "sevendaystomine:kitchen_knife",
+				"functions": [{
+					"function": "sevendaystomine:random_quality",
+					"quality": {
+						"min": 1,
+						"max": 6
+					}
+				}]
+			}
+		]
+	}]
+}

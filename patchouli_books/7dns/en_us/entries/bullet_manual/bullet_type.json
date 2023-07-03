@@ -1,0 +1,47 @@
+{
+    "name": "子弹类型",
+    "icon": "contenttweaker:b_762x25ra",
+    "category": "patchouli:bullet_manual",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type":"text",
+            "text":"利用子弹零件你可以组装成子弹粗胚，有很多种不同子弹类型。下面你可以看到这些粗胚的合成配方"
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:ammo_b_45acpra",
+            "recipe2":"7dns:ammo_b_9mmra"
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:ammo_b_50aera",
+            "recipe2":"7dns:ammo_b_762x39ra"
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:ammo_b_556x45ra",
+            "recipe2":"7dns:ammo_b_58x42ra"
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:ammo_b_762x25ra",
+            "recipe2":"7dns:ammo_b_762x54ra"
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:ammo_b_308ra",
+            "recipe2":"7dns:ammo_b_30_06ra"
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:ammo_b_338ra",
+            "recipe2":"7dns:ammo_b_12gra"
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:ammo_b_50bmgra",
+            "recipe2":"7dns:ammo_b_68x51furyra"
+        }
+    ]
+}

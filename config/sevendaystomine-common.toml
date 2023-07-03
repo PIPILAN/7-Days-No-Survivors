@@ -1,0 +1,287 @@
+
+[player]
+	#The larger the value, the less likely a player is to get infected
+	#Range: > 1
+	infectionChanceModifier = 6
+	#The list of disabled crafting recipes
+	disabledRecipes = ["minecraft:oak_planks", "minecraft:birch_planks", "minecraft:spruce_planks", "minecraft:jungle_planks", "minecraft:dark_oak_planks", "minecraft:acacia_planks", "minecraft:crimson_planks", "minecraft:warped_planks", "minecraft:furnace", "minecraft:wooden_sword", "minecraft:wooden_shovel", "minecraft:wooden_pickaxe", "minecraft:wooden_axe", "minecraft:wooden_hoe", "minecraft:stone_sword", "minecraft:stone_shovel", "minecraft:stone_pickaxe", "minecraft:stone_axe", "minecraft:stone_hoe", "minecraft:iron_sword", "minecraft:golden_sword", "minecraft:golden_shovel", "minecraft:golden_axe", "minecraft:golden_pickaxe", "minecraft:golden_hoe", "minecraft:diamond_sword", "minecraft:iron_shovel", "minecraft:iron_axe", "minecraft:iron_pickaxe", "minecraft:iron_hoe", "minecraft:diamond_shovel", "minecraft:diamond_pickaxe", "minecraft:diamond_axe", "minecraft:diamond_hoe", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "minecraft:iron_ingot", "minecraft:iron_ingot_from_blasting", "minecraft:gold_ingot", "minecraft:gold_ingot_from_blasting", "minecraft:piston"]
+	#Should players receive the Survival Guide on their first spawn?
+	survivalGuide = true
+
+[hordes]
+	#Chance of a generic random horde spawning every tick, unless a horde has already spawned that day for the player (0 = disabled)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	genericHordeChance = 1.0E-5
+	#How many days between individual wolf hordes (0 = disabled)
+	#Range: > 0
+	wolfHordeFrequency = 5
+
+[worldGen]
+	#The min Y of Zinc Ore
+	#Range: > 0
+	zincMinY = 5
+	#The maximal number of sticks in a chunk
+	#Range: > 0
+	stickGenerationRateMax = 5
+	#The min Y of roads
+	#Range: 0 ~ 255
+	roadMinY = 63
+	#The min Y of Lead Ore
+	#Range: > 0
+	leadMinY = 10
+	#The min Y of Cinnabar Ore
+	#Range: > 0
+	cinnabarMinY = 70
+	#The weighted probability of the Wasteland biome
+	#Range: > 0
+	wastelandForestWeight = 300
+	#The the maximal copper vein size
+	#Range: > 0
+	copperVeinSize = 10
+	#The maximal number of Small Rocks in a chunk
+	#Range: > 0
+	largeRockGenerationRateMax = 4
+	#The the maximal potassium vein size
+	#Range: > 0
+	potassiumVeinSize = 10
+	#The average distance (in chunks) between two villages
+	#Range: > 0
+	villageAvgDistance = 40
+	#The number of copper veins in a chunk?
+	#Range: > 0
+	copperCount = 3
+	#The the maximal cinnabar vein size
+	#Range: > 0
+	cinnabarVeinSize = 3
+	#The min distance (in chunks) between a city and a village
+	#Range: > 0
+	cityToVillageMinDistance = 20
+	#The chance of a chunk being suitable for Small Rocks. Larger numbers makes them less likely
+	#Range: > 0
+	largeRockGenerationChance = 2
+	#The chance of a chunk being suitable for Berry Bushes. Larger numbers makes them less likely
+	#Range: > 0
+	berryGenerationChance = 5
+	#The max Y of Cinnabar Ore
+	#Range: > 0
+	cinnabarMaxY = 256
+	#The number of cinnabar veins in a chunk?
+	#Range: > 0
+	cinnabarCount = 6
+	#The minimal number of sticks in a chunk
+	#Range: > 0
+	stickGenerationRateMin = 0
+	#The min Y of Copper Ore
+	#Range: > 0
+	copperMinY = 32
+	#The average distance (in chunks) between two cities
+	#Range: > 0
+	cityAvgDistance = 64
+	#The max Y of Tin Ore
+	#Range: > 0
+	tinMaxY = 128
+	#The chance of a chunk being suitable for sticks. Larger numbers makes them less likely
+	#Range: > 0
+	stickGenerationChance = 2
+	#The the maximal zinc vein size
+	#Range: > 0
+	zincVeinSize = 5
+	#The minimal distance (in chunks) between two villages
+	#Range: > 0
+	villageMinDistance = 28
+	#The largest size (in blocks) a large jigsaw structure (cities and villages) can have. For reference, the Vanilla default is 80.
+	#Range: > 0
+	largeStructureMaxSize = 128
+	#Should generate roads?
+	generateRoads = true
+	#The number of tin veins in a chunk?
+	#Range: > 0
+	tinCount = 8
+	#Should generate sand cover in sandy biomes over the intercity roads?
+	sandRoadCover = true
+	#The max Y of Potassium Ore
+	#Range: > 0
+	potassiumMaxY = 128
+	#The minimal number of Berry Bushes in a chunk
+	#Range: > 0
+	berryGenerationRateMin = 0
+	#The number of lead veins in a chunk?
+	#Range: > 0
+	leadCount = 8
+	#The the maximal lead vein size
+	#Range: > 0
+	leadVeinSize = 6
+	#The number of potassium veins in a chunk?
+	#Range: > 0
+	potassiumCount = 3
+	#The the maximal tin vein size
+	#Range: > 0
+	tinVeinSize = 5
+	#The max Y of roads
+	#Range: 0 ~ 255
+	roadMaxY = 80
+	#The minimal number of Small Rocks in a chunk
+	#Range: > 0
+	largeRockGenerationRateMin = 0
+	#The max Y of Lead Ore
+	#Range: > 0
+	leadMaxY = 80
+	#The min Y of Potassium Ore
+	#Range: > 0
+	potassiumMinY = 50
+	#The min Y of Tin Ore
+	#Range: > 0
+	tinMinY = 5
+	#The number of zinc veins in a chunk?
+	#Range: > 0
+	zincCount = 6
+	#The max Y of Zinc Ore
+	#Range: > 0
+	zincMaxY = 128
+	#The minimal distance (in chunks) between two cities
+	#Range: > 0
+	cityMinDistance = 32
+	#The max Y of Copper Ore
+	#Range: > 0
+	copperMaxY = 128
+	#The maximal number of Berry Bushes in a chunk
+	#Range: > 0
+	berryGenerationRateMax = 6
+
+[mobs]
+	#The maximal amount of Reanimated Corpses
+	#Range: > 0
+	spawnMaxReanimatedCorpse = 7
+	#The spawn weight of the Spider Zombie
+	#Range: > 0
+	spawnWeightSpiderZombie = 70
+	#The minimal amount of Reanimated Corpses
+	#Range: > 0
+	spawnMinReanimatedCorpse = 3
+	#The minimal amount of Zombie Miners
+	#Range: > 0
+	spawnMinZombieMiner = 3
+	#The minimal amount of Soul Burnt Zombies
+	#Range: > 0
+	spawnMinSoulBurntZombie = 3
+	#The spawn weight of the Crawler Zombie
+	#Range: > 0
+	spawnWeightZombieCrawler = 70
+	#The minimal amount of Frostbitten Workers
+	#Range: > 0
+	spawnMinFrostbittenWorker = 3
+	#The minimal amount of Feral Zombies
+	#Range: > 0
+	spawnMinFeralZombie = 1
+	#The maximal amount of Plagued Nurses
+	#Range: > 0
+	spawnMaxPlaguedNurse = 7
+	#The maximal amount of Soul Burnt Zombies
+	#Range: > 0
+	spawnMaxSoulBurntZombie = 7
+	#The maximal amount of Zombie Pigs
+	#Range: > 0
+	spawnMaxZombiePig = 7
+	#The maximal amount of Crawler Zombies
+	#Range: > 0
+	spawnMaxZombieCrawler = 7
+	#The maximal amount of Burnt Zombies
+	#Range: > 0
+	spawnMaxBurntZombie = 7
+	#The spawn weight of the Infected Survivor
+	#Range: > 0
+	spawnWeightInfectedSurvivor = 70
+	#The minimal amount of Bloated Zombies
+	#Range: > 0
+	spawnMinBloatedZombie = 3
+	#The spawn weight of the Reanimated Corpse
+	#Range: > 0
+	spawnWeightReanimatedCorpse = 70
+	#The minimal amount of Spider Zombies
+	#Range: > 0
+	spawnMinSpiderZombie = 3
+	#The maximal amount of Frigid Hunters
+	#Range: > 0
+	spawnMaxFrigidHunter = 7
+	#The minimal amount of Zombie Wolfs
+	#Range: > 0
+	spawnMinZombieWolf = 3
+	#The minimal amount of Frigid Hunters
+	#Range: > 0
+	spawnMinFrigidHunter = 3
+	#The minimal amount of Crawler Zombies
+	#Range: > 0
+	spawnMinZombieCrawler = 3
+	#The maximal amount of Feral Zombies
+	#Range: > 0
+	spawnMaxFeralZombie = 1
+	#The maximal amount of Infected Survivors
+	#Range: > 0
+	spawnMaxInfectedSurvivor = 7
+	#The maximal amount of Zombie Wolfs
+	#Range: > 0
+	spawnMaxZombieWolf = 7
+	#The minimal amount of Frozen Lumberjacks
+	#Range: > 0
+	spawnMinFrozenLumberjack = 3
+	#The spawn weight of the Burnt Zombie
+	#Range: > 0
+	spawnWeightBurntZombie = 70
+	#The spawn weight of the Frozen Lumberjack
+	#Range: > 0
+	spawnWeightFrozenLumberjack = 70
+	#The spawn weight of the Zombie Miner
+	#Range: > 0
+	spawnWeightZombieMiner = 70
+	#The maximal amount of Frozen Lumberjacks
+	#Range: > 0
+	spawnMaxFrozenLumberjack = 7
+	#The spawn weight of the Plagued Nurse
+	#Range: > 0
+	spawnWeightPlaguedNurse = 70
+	#The spawn weight of the Frigid Hunter
+	#Range: > 0
+	spawnWeightFrigidHunter = 70
+	#The spawn weight of the Bloated Zombie
+	#Range: > 0
+	spawnWeightBloatedZombie = 70
+	#The maximal amount of Bloated Zombies
+	#Range: > 0
+	spawnMaxBloatedZombie = 7
+	#The maximal amount of Spider Zombies
+	#Range: > 0
+	spawnMaxSpiderZombie = 7
+	#The maximal amount of Zombie Miners
+	#Range: > 0
+	spawnMaxZombieMiner = 7
+	#The minimal amount of Zombie Pigs
+	#Range: > 0
+	spawnMinZombiePig = 3
+	#The minimal amount of Plagued Nurses
+	#Range: > 0
+	spawnMinPlaguedNurse = 3
+	#The spawn weight of the Zombie Wolf
+	#Range: > 0
+	spawnWeightZombieWolf = 70
+	#The spawn weight of the Feral Zombie
+	#Range: > 0
+	spawnWeightFeralZombie = 1
+	#The spawn weight of the Frostbitten Worker
+	#Range: > 0
+	spawnWeightFrostbittenWorker = 70
+	#The maximal amount of Frostbitten Workers
+	#Range: > 0
+	spawnMaxFrostbittenWorker = 7
+	#The minimal amount of Infected Survivors
+	#Range: > 0
+	spawnMinInfectedSurvivor = 3
+	#The minimal amount of Burnt Zombies
+	#Range: > 0
+	spawnMinBurntZombie = 3
+	#The spawn weight of the Zombie Pig
+	#Range: > 0
+	spawnWeightZombiePig = 70
+	#The spawn weight of the Soul Burnt Zombie
+	#Range: > 0
+	spawnWeightSoulBurntZombie = 70
+

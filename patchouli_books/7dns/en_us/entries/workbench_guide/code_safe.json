@@ -1,0 +1,19 @@
+{
+    "name": "密码保险箱",
+    "icon": "sevendaystomine:code_safe",
+    "category": "patchouli:workbench_guide",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:code_safe",
+            "text":"密码保险箱会自带一个密码，这个密码无法被更改，即使是你制造的。你也无法直接知道保险箱的密码。可能...没什么作用，毕竟连制造人都防。不过废弃城市中的保险箱奖励一般都很丰厚。"
+        },
+        {
+            "type":"image",
+            "title": "密码保险箱",
+            "images":["patchouli:textures/entries/code_safe.png"]
+        }
+    ]
+}

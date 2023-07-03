@@ -1,0 +1,13 @@
+{
+    "name": "混合成料",
+    "icon": "sevendaystomine:concrete_mix",
+    "category": "patchouli:civil_engineering",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:concrete_mix",
+            "text":"如之前所述，混凝土搅拌只需要一些水泥、沙子和水。只要按照1:1:1的比例混合，你就可以获得一些混凝土混合料了。"
+        }
+    ]
+}

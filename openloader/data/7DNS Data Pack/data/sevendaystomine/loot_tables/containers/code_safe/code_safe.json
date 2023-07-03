@@ -1,0 +1,537 @@
+{
+    "type": "minecraft:generic",
+	"pools": [{
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [{
+					"type": "item",
+					"weight": 10,
+					"name": "tac:m1911"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "tac:glock_17"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "tac:sti2011"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "tac:cz75"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "tac:cz75_auto"
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "tac:tti_g34"
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "tac:deagle_357"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "tac:ak47"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "tac:m4"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "tac:hk416_a5"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "tac:scar_l"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "tac:mk18_mod1"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "tac:mk14"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "tac:sks_tactical"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "tac:spr15"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "sevendaystomine:sniper_rifle",
+					"functions": [{
+							"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+						},
+						{
+							"function": "sevendaystomine:random_ammo"
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 1
+							},
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "tac:db_short"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "tac:aa_12"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "tac:m870_classic"
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "tac:m1014"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "sevendaystomine:flamethrower",
+					"functions": [{
+							"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+						},
+						{
+							"function": "sevendaystomine:random_ammo"
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 1
+							},
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "tac:vector45"
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "tac:micro_uzi"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "tac:hk_mp5a5"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "tac:mp7"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "tac:m24"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "sevendaystomine:rpg",
+					"functions": [{
+							"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+						},
+						{
+							"function": "sevendaystomine:random_ammo"
+						},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 1
+							},
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 70,
+					"name": "sevendaystomine:army_knife",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 1
+							},
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.5
+								}
+							]
+						}]
+				},
+				{
+					"type": "empty",
+					"weight": 100
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 3
+			},
+			"entries": [{
+					"type": "item",
+					"weight": 30,
+					"name": "sevendaystomine:pistol_grip",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 30,
+					"name": "sevendaystomine:pistol_slide",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 30,
+					"name": "sevendaystomine:pistol_trigger",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 8,
+					"name": "sevendaystomine:sniper_rifle_barrel",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 8,
+					"name": "sevendaystomine:sniper_rifle_stock",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 8,
+					"name": "sevendaystomine:sniper_rifle_scope",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 8,
+					"name": "sevendaystomine:sniper_rifle_trigger",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "sevendaystomine:shotgun_barrel",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "sevendaystomine:shotgun_receiver",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "sevendaystomine:shotgun_barrel_short",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "sevendaystomine:shotgun_stock",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "sevendaystomine:shotgun_stock_short",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "sevendaystomine:shotgun_parts",
+					"functions": [{
+						"function": "sevendaystomine:random_quality","quality": {"min": 1,"max": 600}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 45,
+					"name": "k-turrets:gauss_bullet",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 5
+						}
+					}]
+				},
+				{
+					"type": "empty",
+					"weight": 100
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 4
+			},
+			"entries": [{
+					"type": "item",
+					"weight": 15,
+					"name": "tac:round45",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 30
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "tac:ae50",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 30
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "tac:9mm_round",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 30
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "tac:762x39",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 20
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "tac:nato_556_bullet",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 20
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "tac:58x42",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 20
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "tac:bullet_308",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 20
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "tac:win_30-30",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 10
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "tac:762x25",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 10
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "tac:762x54",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 10
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "tac:bullet68",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 10
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "tac:50bmg",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 4
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "tac:lapua338",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 6
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 25,
+					"name": "tac:10_gauge_round",
+					"functions": [{
+						"function": "set_count",
+						"count": {
+							"min": 1,
+							"max": 12
+						}
+					}]
+				},
+				{
+					"type": "empty",
+					"weight": 120
+				}
+			]
+		}
+	]
+}

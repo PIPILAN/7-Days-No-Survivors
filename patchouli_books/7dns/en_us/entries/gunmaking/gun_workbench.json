@@ -1,0 +1,26 @@
+{
+    "name": "枪械制造",
+    "icon": "tac:workbench",
+    "category": "patchouli:gunmaking",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type":"spotlight",
+            "link_recipe": false,
+            "item":"tac:workbench",
+            "text":"枪械制造第二件重要的事情就是枪械工作台，就是之前在锻造指南中提到过的那个枪械工作台。$(br)$(li)A - 切换制造枪械$(li)B - 切换制造配件$(li)C - 切换制造子弹$(li)D - 预览区域$(li)E- 制造所需材料$(li)F- 染料栏（皮肤）"
+        },
+        {
+            "type":"image",
+            "title": "枪械工作台界面",
+            "images":["patchouli:textures/entries/gunworkbench_gui.png"],
+            "text": "正如之前说的，制造枪械需要有相应组装蓝图"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"tac:cz75",
+            "text":"不过由于灾难初期的一档广播，绝大多数人都学到了CZ75的组装方法。因此，制造CZ75这把手枪并不需要组装蓝图"
+        }
+    ]
+}

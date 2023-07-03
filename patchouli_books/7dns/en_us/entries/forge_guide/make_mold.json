@@ -1,0 +1,13 @@
+{
+    "name": "制作模具",
+    "icon": "sevendaystomine:ingot_mold",
+    "category": "patchouli:forge_guide",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:ingot_mold",
+            "text":"$(br)制作模具非常简单，你只需要一些粘土。至少简单的模具是这样的。而更复杂的模具需要这些物品的原件来制作。"
+        }
+    ]
+}

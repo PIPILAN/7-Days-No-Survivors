@@ -1,0 +1,81 @@
+{
+	"type": "minecraft:generic",
+	"pools": [{
+		"rolls": {
+			"min": 1,
+			"max": 9
+		},
+		"entries": [{
+				"type": "item",
+				"weight": 35,
+				"name": "minecraft:paper",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 4
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 20,
+				"name": "minecraft:book",
+				"quality": 5
+			},
+			{
+				"type": "item",
+				"weight": 6,
+				"name": "minecraft:writable_book"
+			},
+			{
+				"type": "item",
+				"weight": 5,
+				"name": "sevendaystomine:survival_guide"
+			},
+			{
+				"type": "item",
+				"weight": 3,
+				"name": "sevendaystomine:book_forging"
+			},
+			{
+				"type": "item",
+				"weight": 2,
+				"name": "sevendaystomine:book_concrete"
+			},
+			{
+				"type": "item",
+				"weight": 1,
+				"name": "sevendaystomine:book_minibike"
+			},
+			{
+				"type": "item",
+				"weight": 5,
+				"name": "sevendaystomine:screwdriver",
+				"functions": [{
+					"function": "sevendaystomine:random_quality",
+					"quality": {
+						"min": 1,
+						"max": 600
+					}
+				}]
+			},
+			{
+				"type": "empty",
+				"weight": 50
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 5,
+				"functions": [{
+					"function": "minecraft:exploration_map",
+					"decoration": "mansion",
+					"zoom": 1,
+					"skip_existing_chunks": true,
+					"destination": "sevendaystomine:city"
+				}],
+				"name": "minecraft:map"
+			}
+		]
+	}]
+}

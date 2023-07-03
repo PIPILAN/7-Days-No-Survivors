@@ -1,0 +1,12 @@
+{
+    "name": "枪械零件",
+    "icon": "sevendaystomine:pistol_trigger",
+    "category": "patchouli:gunmaking",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type":"text",
+            "text":"如果你想制造一把自己信得过的伙计，那你需要做的第一件事就是去搜刮枪械零件（当然，如果你运气够好说不定能直接搜刮到枪械，但不一定是你想要的那把）。$(br2)这些零件基本为滑膛、扳机、握把、枪管、枪托等。"
+        }
+    ]
+}

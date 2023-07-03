@@ -1,0 +1,17 @@
+{
+    "name": "真实重力",
+    "icon": "minecraft:sand",
+    "category": "patchouli:survival_guide",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type":"text",
+            "text":"这个世界是真实存在重力的！你无法建造悬空建筑以躲避丧尸的追杀，你也不能做一些反物理结构来达到你想要的某些目的。$(br2)绝大多数建材方块能支持直径为4、斜角为4的面积不坍塌。而钢材框架及其强化建材可以维持直径为10，斜角为8的面积不坍塌！"
+        },
+        {
+            "type":"image",
+            "title": "钢筋框架合成配方",
+            "images":["patchouli:textures/entries/rebar_frame.png"]
+        }
+    ]
+}

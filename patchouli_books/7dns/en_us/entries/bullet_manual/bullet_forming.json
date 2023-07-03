@@ -1,0 +1,12 @@
+{
+    "name": "子弹成型",
+    "icon": "tac:58x42",
+    "category": "patchouli:bullet_manual",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type":"text",
+            "text":"你已经将子弹零件制作成子弹粗胚了。你需要做的最后一步就是在$(l:forge_guide/gun_workbench)枪械工作台$()中将其制作成可以使用的子弹！"
+        }
+    ]
+}

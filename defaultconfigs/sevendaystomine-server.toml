@@ -1,0 +1,114 @@
+
+[player]
+	#Should use the stamina system?
+	staminaSystem = true
+	#Makes block breaking slower and more immersive
+	immersiveBlockBreaking = true
+	#How many XP per 1 Quality point
+	#Range: 0.0 ~ 1.7976931348623157E308
+	xpPerQuality = 5.0
+	#Can players take photos with the Analog Camera item?
+	allowPhotos = true
+	#Maximal possible Quality
+	#Range: > 0
+	maxQuality = 600
+	#Can a player break their legs on fall?
+	fragileLegs = true
+	#Can players use cameras (the block)?
+	allowCameras = true
+	#Does the baneberry give the poison status effect?
+	extraPoisonousBerries = true
+	#Should use the thirst system?
+	thirstSystem = true
+	#Controls rendering of player's items (weapons, tools). If false on a server, no one will be able to see the items regardless of their settings
+	renderPlayerInventory = true
+	#Affects the block breaking speed when immersiveBlockBreaking is true. The higher the number, the slower the breaking is
+	#Range: 0.0 ~ 1.7976931348623157E308
+	immersiveBlockBreakingModifier = 32.0
+	#Should use the quality system?
+	#Allowed Values: OFF, SEVEN_DAYS_TO_MINE_ONLY, ALL
+	qualitySystem = "ALL"
+	#Should add the backpack slot to the player inventory (does not affect the texture, if you turn this off, you should used a resourcepack where the slot is removed from the texture)
+	backpackSlot = true
+	#The duration of the individual infection stages
+	infection_stages_duration = [24000, 24000, 24000, 24000, 24000, 24000, 24000]
+	#Controls how much scrap you get from scrapping in inventory
+	#Range: 0.0 ~ 1.0
+	scrapCoefficient = 0.5
+	#Do recipes have to be unlocked using the recipe books?
+	recipeBooksRequired = true
+
+[mobs]
+	#Maximal possible Quality
+	#Range: 0 ~ 2
+	zombiesRunMode = 1
+	#How many days between individual airdrops (0 = disabled)
+	#Range: > 0
+	airdropFrequency = 1
+	#Can zombies break blocks?
+	zombiesBreakBlocks = true
+	#Do corpses spawn on zombies' death?
+	zombieCorpses = true
+	#How many ticks until a corpse decays
+	#Range: > 0
+	corpseLifespan = 20000
+	#Maximal possible Quality
+	#Range: > 0
+	bleedingChanceModifier = 10
+	#Should remove vanilla zombies (and skeletons, husks)?
+	removeVanillaZommbies = true
+	#Can bullets break blocks?
+	bulletsBreakBlocks = true
+	#How many ticks until a torch burns out (-1 = infinity)
+	#Range: > 0
+	torchBurnTime = 22000
+	#Can zombies attack animals (and vanilla villagers)?
+	zombiesAttackAnimals = false
+	#Does rain extinguish burning torches?
+	torchRainExtinguish = true
+
+[hordes]
+	#Maximal number of zombies the horde wave has - reached after the fifth bloodmoon
+	#Range: > 0
+	genericHordeZombiesPerWaveMax = 5
+	#The minimal distance from the player that a horde can spawn
+	#Range: > 0
+	hordeMinDistance = 30
+	#The delay in ticks between individual waves
+	#Range: > 0
+	hordeWaveDelay = 200
+	#Minimal number of zombies the horde wave has - used during the first few bloodmoons
+	#Range: > 0
+	genericHordeZombiesPerWaveMin = 4
+	#How many waves wolf horde has
+	#Range: > 0
+	wolfHordeWaves = 3
+	#How many days between individual bloodmoons (0 = disabled)
+	#Range: > 0
+	bloodmoonFrequency = 7
+	#Maximal number of zombies the bloodmoon horde wave has - used  after the fifth bloodmoon
+	#Range: > 0
+	bloodmoonHordeZombiesPerWaveMax = 15
+	#The maximal distance from the player that a horde can spawn
+	#Range: > 0
+	hordeMaxDistance = 30
+	#Minimal number of zombies the bloodmoon horde wave has - used during the first few bloodmoons
+	#Range: > 0
+	bloodmoonHordeZombiesPerWaveMin = 6
+	#How many zombies wolf horde wave has
+	#Range: > 0
+	wolfHordeZombiesPerWave = 8
+	#How many waves generic horde has
+	#Range: > 0
+	genericHordeWaves = 4
+	#How many waves bloodmoon horde has
+	#Range: > 0
+	bloodmoonHordeWaves = 8
+
+[world]
+	#IDs of the dimensions in which structures should be geenrated
+	generateStructuresIn = ["minecraft:overworld"]
+	#The rate of damaged blocks decay, how often does the decay update (12000 = every 12000 ticks - twice a day). Non-positive values disable the decay. Can be overridden by the damageDecayRate gamerule
+	#Range: > -1
+	damageDecayRate = 12000
+

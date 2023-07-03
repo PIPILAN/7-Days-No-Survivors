@@ -1,0 +1,23 @@
+{
+    "name": "电力传导",
+    "icon": "sevendaystomine:wire",
+    "category": "patchouli:power_manual",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:wire",
+            "text":"$(br)电力传导允许你将电流从一个设备转流向另一个设备，它们通常是由电线和电线杆组成的系统。尽管开关和蓄电池等控制和储存元件也是很重要的一部分。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:energy_pole",
+            "recipe2":"sevendaystomine:energy_switch"
+        },
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:battery_station",
+            "recipe2":"sevendaystomine:thermometer"
+        }
+    ]
+}

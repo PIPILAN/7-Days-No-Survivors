@@ -1,0 +1,28 @@
+{
+    "name": "机车零件",
+    "icon": "sevendaystomine:minibike_chassis",
+    "category": "patchouli:minibike",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type":"image",
+            "title": "底盘合成配方",
+            "images":["patchouli:textures/entries/minibike_chassis.png"]
+        },
+        {
+            "type":"image",
+            "title": "把手合成配方",
+            "images":["patchouli:textures/entries/minibike_handles.png"]
+        },
+        {
+            "type":"image",
+            "title": "座椅合成配方",
+            "images":["patchouli:textures/entries/minibike_seat.png"]
+        },
+        {
+            "type":"image",
+            "title": "车轮合成配方",
+            "images":["patchouli:textures/entries/minibike_wheel.png"]
+        }
+    ]
+}

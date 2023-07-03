@@ -1,0 +1,454 @@
+{
+	"type": "minecraft:generic",
+	"pools": [{
+		"rolls": {
+			"min": 0,
+			"max": 2
+		},
+		"entries": [{
+			"type": "item",
+			"weight": 8,
+			"name": "sevendaystomine:bottled_water",
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"min": 1.0,
+						"max": 3.0,
+						"type": "minecraft:uniform"
+					}
+				}
+			]
+		},
+			{
+				"type": "item",
+				"weight": 12,
+				"name": "minecraft:paper",
+				"functions": [
+					{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 1.0,
+							"max": 4.0,
+							"type": "minecraft:uniform"
+						}
+					}
+				]
+			},
+			{
+				"type": "item",
+				"weight": 7,
+				"name": "sevendaystomine:plank_wood",
+				"functions": [
+					{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 1.0,
+							"max": 2.0,
+							"type": "minecraft:uniform"
+						}
+					}
+				]
+			},
+			{
+				"type": "item",
+				"weight": 9,
+				"name": "sevendaystomine:empty_jar",
+				"functions": [
+					{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 1.0,
+							"max": 5.0,
+							"type": "minecraft:uniform"
+						}
+					}
+				]
+			},
+			{
+				"type": "item",
+				"weight": 7,
+				"name": "sevendaystomine:empty_can",
+				"functions": [
+					{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 1.0,
+							"max": 8.0,
+							"type": "minecraft:uniform"
+						}
+					}
+				]
+			},
+			{
+				"type": "item",
+				"weight": 8,
+				"name": "sevendaystomine:cloth",
+				"functions": [
+					{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 1.0,
+							"max": 12.0,
+							"type": "minecraft:uniform"
+						}
+					}
+				]
+			},
+			{
+				"type": "item",
+				"weight": 5,
+				"name": "sevendaystomine:bandage",
+				"functions": [
+					{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 1.0,
+							"max": 4.0,
+							"type": "minecraft:uniform"
+						}
+					}
+				]
+			},
+			{
+				"type": "item",
+				"weight": 4,
+				"name": "sevendaystomine:gas_canister",
+				"functions": [
+					{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 1.0,
+							"max": 6.0,
+							"type": "minecraft:uniform"
+						}
+					}
+				]
+			},
+			{
+				"type": "item",
+				"weight": 4,
+				"name": "sevendaystomine:cent",
+				"functions": [
+					{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 1.0,
+							"max": 10.0,
+							"type": "minecraft:uniform"
+						}
+					}
+				]
+			},
+			{
+				"type": "item",
+				"weight": 1,
+				"name": "sevendaystomine:book_forging"
+			},
+			{
+				"type": "empty",
+				"weight": 100
+			}
+		]
+	},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [{
+				"type": "item",
+				"weight": 1,
+				"name": "sevendaystomine:auger",
+				"functions": [{
+					"function": "sevendaystomine:random_quality",
+					"quality": {
+						"min": 1,
+						"max": 600
+					}
+				},
+					{
+						"function": "sevendaystomine:random_fuel"
+					}
+				]
+			},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "sevendaystomine:chainsaw",
+					"functions": [{
+						"function": "sevendaystomine:random_quality",
+						"quality": {
+							"min": 1,
+							"max": 600
+						}
+					},
+						{
+							"function": "sevendaystomine:random_fuel"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"name": "sevendaystomine:wrench",
+					"functions": [{
+						"function": "sevendaystomine:random_quality",
+						"quality": {
+							"min": 1,
+							"max": 600
+						}
+					},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 1
+							},
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.5
+								}
+							]
+						}]
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"name": "sevendaystomine:clawhammer",
+					"functions": [{
+						"function": "sevendaystomine:random_quality",
+						"quality": {
+							"min": 1,
+							"max": 600
+						}
+					},
+						{
+							"function": "set_damage",
+							"damage": {
+								"min": 0.5,
+								"max": 1
+							},
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.5
+								}
+							]
+						}]
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "sevendaystomine:analog_camera"
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "sevendaystomine:auger_blade",
+					"functions": [{
+						"function": "sevendaystomine:random_quality",
+						"quality": {
+							"min": 1,
+							"max": 600
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "sevendaystomine:small_engine",
+					"functions": [{
+						"function": "sevendaystomine:random_quality",
+						"quality": {
+							"min": 1,
+							"max": 600
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "sevendaystomine:car_battery",
+					"functions": [{
+						"function": "sevendaystomine:random_quality",
+						"quality": {
+							"min": 1,
+							"max": 600
+						}
+					}]
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "sevendaystomine:ram"
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "sevendaystomine:cpu"
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "sevendaystomine:hdd"
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "sevendaystomine:gpu"
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "sevendaystomine:motherboard"
+				},
+				{
+					"type": "item",
+					"weight": 6,
+					"name": "sevendaystomine:circuit"
+				},
+				{
+					"type": "item",
+					"weight": 7,
+					"name": "sevendaystomine:voltmeter"
+				},
+				{
+					"type": "item",
+					"weight": 7,
+					"name": "sevendaystomine:mp3_player"
+				},
+				{
+					"type": "item",
+					"weight": 9,
+					"name": "sevendaystomine:disc",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 5.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "sevendaystomine:magnet",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 3.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "sevendaystomine:photo_cell",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 4.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 8,
+					"name": "sevendaystomine:link_tool",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 14,
+					"name": "sevendaystomine:scrap_lead",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 14,
+					"name": "sevendaystomine:scrap_brass",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 15,
+					"name": "sevendaystomine:scrap_iron",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 10.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 10,
+					"name": "sevendaystomine:bandage_advanced"
+				},
+				{
+					"type": "item",
+					"weight": 20,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 12.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 100
+				}
+			]
+		}
+	]
+}

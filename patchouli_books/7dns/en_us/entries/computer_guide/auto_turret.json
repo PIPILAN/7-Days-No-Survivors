@@ -1,0 +1,89 @@
+{
+    "name": "自动炮塔",
+    "icon": "sevendaystomine:turret_base",
+    "category": "patchouli:computer_guide",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type":"text",
+            "text":"如果你有很多材料无处可用，那我强烈推荐你制作成自动炮塔！自动炮塔是一种可以自动锁定目标的防御设备。它可以使用各式各样的弹药，为你提供安全的环境，尽管这并不合法。$(br2)自动炮塔的制作并不简单。制作它门你需要使用锻炉制作铁管、钢锭、齿轮、发射器甚至还有一些枪管。我们相信你能力保护自己，尽管你太可能拿到所需的零件。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:misc_gear",
+            "recipe2":"7dns:minecraft_dispenser"
+        },
+        {
+            "type":"entity",
+            "entity":"k-turrets:cobble_turret",
+            "text": "$(br)           $(t:基础伤害: 6.0 \n开火速度: 20\n生命值: 60\n护甲: 3.0\n攻击范围:32.0)鼠标悬停查看属性$(/t)"
+        },
+        {
+            "type":"image",
+            "title": "掷石炮塔合成配方",
+            "border": true,
+            "images":["patchouli:textures/entries/turret_cobble.png"],
+            "text": "基础款炮塔，使用圆石作为弹药"
+        },
+        {
+            "type":"entity",
+            "entity":"k-turrets:arrow_turret",
+            "text": "$(br)           $(t:基础伤害: 12.0 \n开火速度: 20\n生命值: 60\n护甲: 3.0\n攻击范围:32.0)鼠标悬停查看属性$(/t)"
+        },
+        {
+            "type":"image",
+            "title": "箭塔合成配方",
+            "images":["patchouli:textures/entries/turret_arrow.png"],
+            "text": "需要弓或弩才能使用，使用弩时伤害+20%"
+        },
+        {
+            "type":"entity",
+            "entity":"k-turrets:bullet_turret",
+            "text": "$(br)           $(t:基础伤害: 16.0（铁粒）/14.0（金粒） \n开火速度: 20\n生命值: 60\n护甲: 3.0\n攻击范围:32.0)鼠标悬停查看属性$(/t)"
+        },
+        {
+            "type":"image",
+            "title": "炮塔合成配方",
+            "images":["patchouli:textures/entries/turret_bullet.png"],
+            "text": "最广泛使用的炮塔，使用铁粒和金粒作为弹药"
+        },
+        {
+            "type":"entity",
+            "entity":"k-turrets:fire_charge_turret",
+            "text": "$(br)           $(t:基础伤害: 12.0 \n开火速度: 20\n生命值: 60\n护甲: 3.0\n攻击范围:32.0)鼠标悬停查看属性$(/t)"
+        },
+        {
+            "type":"image",
+            "title": "火焰弹炮塔合成配方",
+            "images":["patchouli:textures/entries/turret_firecharge.png"],
+            "text": "使用火焰弹作为弹药，攻击造成燃烧"
+        },
+        {
+            "type":"entity",
+            "entity":"k-turrets:brick_turret",
+            "text": "$(br)           $(t:基础伤害: 20.0（下界砖）/18.0（红砖） \n开火速度: 20\n生命值: 60\n护甲: 3.0\n攻击范围:32.0)鼠标悬停查看属性$(/t)"
+        },
+        {
+            "type":"image",
+            "title": "掷砖炮塔合成配方",
+            "images":["patchouli:textures/entries/turret_brick.png"],
+            "text": "比较特殊的炮塔，使用红砖和下界砖作为弹药"
+        },
+        {
+            "type":"entity",
+            "entity":"k-turrets:gauss_turret",
+            "text": "$(br)           $(t:基础伤害: 48.0 \n开火速度: 20\n生命值: 60\n护甲: 3.0\n攻击范围:32.0)鼠标悬停查看属性$(/t)"
+        },
+        {
+            "type":"image",
+            "title": "高斯炮塔合成配方",
+            "images":["patchouli:textures/entries/turret_gauss.png"],
+            "text": "使用高斯子弹，拥有$(c)极强$()的攻击力"
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:ammo_gauss_bullet",
+            "text":"高斯炮塔虽然拥有很强的攻击力，但是也需要特殊的子弹，相当昂贵！配方如上图。$(br2)制作高斯子弹需要先解锁科技 - 子弹手册。"
+        }
+    ]
+}

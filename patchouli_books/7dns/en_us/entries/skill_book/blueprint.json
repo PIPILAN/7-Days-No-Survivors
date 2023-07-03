@@ -1,0 +1,33 @@
+{
+    "name": "结构图",
+    "icon": "sevendaystomine:book_shotgun",
+    "category": "patchouli:skill_book",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type":"text",
+            "text":"结构图一般是比较复杂珍贵的物品才需要的。基本作用同技能书相同。但是武器相关结构图在解锁之后，可以使用纸张复写组装蓝图，组装蓝图会在之后的枪械制造中用到，是很珍贵的一次性用品。种类如下："
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:blueprinta",
+            "recipe2":"7dns:blueprintb"
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:blueprintc",
+            "recipe2":"7dns:blueprintd"
+        },
+        {
+            "type":"crafting",
+            "recipe":"7dns:blueprinte",
+            "recipe2":"7dns:blueprintf"
+        },
+        {
+            "type":"spotlight",
+            "link_recipe": true,
+            "item":"sevendaystomine:book_auger",
+            "text":"这是一个特殊的结构图，制作相应的物品无需复写组装蓝图。"
+        }
+    ]
+}

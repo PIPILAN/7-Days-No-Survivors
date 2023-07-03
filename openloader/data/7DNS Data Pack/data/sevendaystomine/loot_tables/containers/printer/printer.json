@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 9,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "sevendaystomine:note",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{data:\"sevendaystomine:notes/fire\"}"
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 150
+        }
+      ]
+    }
+  ]
+}

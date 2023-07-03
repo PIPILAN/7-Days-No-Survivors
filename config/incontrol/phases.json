@@ -1,0 +1,106 @@
+[
+    {
+        "name": "1_7",
+        "conditions": {
+            "mindaycount": 0,
+            "maxdaycount": 7
+        }
+    },
+    {
+        "name": "8_14",
+        "conditions": {
+            "mindaycount": 8,
+            "maxdaycount": 14
+        }
+    },
+    {
+        "name": "15_21",
+        "conditions": {
+            "mindaycount": 15,
+            "maxdaycount": 21
+        }
+    },
+    {
+        "name": "22_28",
+        "conditions": {
+            "mindaycount": 22,
+            "maxdaycount": 28
+        }
+    },
+    {
+        "name": "29_35",
+        "conditions": {
+            "mindaycount": 29,
+            "maxdaycount": 35
+        }
+    },
+    {
+        "name": "36_42",
+        "conditions": {
+            "mindaycount": 36,
+            "maxdaycount": 42
+        }
+    },
+    {
+        "name": "43_49",
+        "conditions": {
+            "mindaycount": 43,
+            "maxdaycount": 49
+        }
+    },
+    {
+        "name": "50_56",
+        "conditions": {
+            "mindaycount": 50,
+            "maxdaycount": 56
+        }
+    },
+    {
+        "name": "57_63",
+        "conditions": {
+            "mindaycount": 57,
+            "maxdaycount": 63
+        }
+    },
+    {
+        "name": "64_70",
+        "conditions": {
+            "mindaycount": 64,
+            "maxdaycount": 70
+        }
+    },
+    {
+        "name": "71_77",
+        "conditions": {
+            "mindaycount": 71,
+            "maxdaycount": 77
+        }
+    },
+    {
+        "name": "78_84",
+        "conditions": {
+            "mindaycount": 78,
+            "maxdaycount": 84
+        }
+    },
+    {
+        "name": "85_91",
+        "conditions": {
+            "mindaycount": 85,
+            "maxdaycount": 91
+        }
+    },
+    {
+        "name": "92_98",
+        "conditions": {
+            "mindaycount": 92,
+            "maxdaycount": 98
+        }
+    },
+    {
+        "name": "99_",
+        "conditions": {
+            "mindaycount": 99
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+    "name": "铸造金属",
+    "icon": "sevendaystomine:steel_ingot",
+    "category": "patchouli:forge_guide",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type":"text",
+            "text":"为了铸造金属，你需要一些金属来源。比如可以在野外采集到的矿石，或者可以搜刮到的废料以及一些易燃的物品。它们会燃烧然后熔化为金属。$(br2)燃料可以使用煤炭或者木炭等，但其实绝大多数可燃烧的物品都可以作为燃料。例如木板、原木。"
+        },
+        {
+            "type":"image",
+            "title": "锻炉",
+            "images":["patchouli:textures/entries/forge_gui.png"],
+            "text": "    $(#FF0000)A - 模具            $(#007F0E)C - 输出$(br)    $(#FFD800)B - 燃料            $(#0026FF)D - 输入"
+        }
+    ]
+}

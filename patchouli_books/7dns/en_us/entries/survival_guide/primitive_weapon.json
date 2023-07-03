@@ -1,0 +1,17 @@
+{
+    "name": "原始武器",
+    "icon": "sevendaystomine:crude_club",
+    "category": "patchouli:survival_guide",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type":"text",
+            "text":"武器，又称为兵器，是用于攻击的工具，也因此被用来威慑和防御。你可能认为用木棍制成的武器不会致命，但很遗憾的告诉你，你错了，你只是需要更多的时间。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:crude_club",
+            "recipe2":"sevendaystomine:crude_bow"
+        }
+    ]
+}

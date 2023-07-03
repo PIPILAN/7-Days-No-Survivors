@@ -1,0 +1,17 @@
+{
+    "name": "避难小屋",
+    "icon": "sevendaystomine:oak_planks_frame",
+    "category": "patchouli:survival_guide",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type":"text",
+            "text":"这个世界不是你认为的世界！世界是真实有重力的，且任何建筑在你没有工具时都很难破坏。你基本上可以使用任何东西搭建自己的避难小屋，但最好的入门选择仍然是木材。$(br2)砍下几棵树，你可以把它们制成板，制作一些框架块。对于你的避难小屋，在以后你拥有充足资源后，你可以用斧头和木板对它进行升级。"
+        },
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:plank_wood",
+            "recipe2":"sevendaystomine:oak_planks_frame"
+        }
+    ]
+}

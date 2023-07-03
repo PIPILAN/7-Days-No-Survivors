@@ -1,0 +1,17 @@
+{
+    "name": "子弹零件",
+    "icon": "sevendaystomine:bullet_tip",
+    "category": "patchouli:bullet_manual",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type":"text",
+            "text":"除了12号霰弹以外，几乎其他所有类型的子弹都是由弹壳、弹头和火药组成粗胚然后使用枪械工作台制作完成的。如果你有这些零件原件和大量资源，那么你可以大量生产子弹。$(br2)想批量生产只需要你为这些零件制造相应的模具。之后你就可以使用材料和模具在锻炉中制造。子弹弹头是由铅制成的，而弹壳是由黄铜制成的"
+        },
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:bullet_tip_mold",
+            "recipe2":"sevendaystomine:bullet_casing_mold"
+        }
+    ]
+}

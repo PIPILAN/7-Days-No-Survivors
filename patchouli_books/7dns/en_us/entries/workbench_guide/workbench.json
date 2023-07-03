@@ -1,0 +1,13 @@
+{
+    "name": "工作台",
+    "icon": "sevendaystomine:workbench",
+    "category": "patchouli:workbench_guide",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"sevendaystomine:workbench",
+            "text":"工作台可以让你制作比普通的工作台更复杂的东西。因为它有更先进的工具（比如螺丝刀、羊角锤）。你几乎可以制作从工具到机器的任何东西。"
+        }
+    ]
+}

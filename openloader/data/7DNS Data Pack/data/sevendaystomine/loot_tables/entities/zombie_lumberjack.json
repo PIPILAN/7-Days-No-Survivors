@@ -1,0 +1,160 @@
+{
+	"type": "minecraft:generic",
+	"pools": [{
+		"rolls": {
+			"min": 1,
+			"max": 9
+		},
+		"entries": [{
+			"type": "item",
+			"weight": 40,
+			"name": "minecraft:paper",
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 1,
+					"max": 4
+				}
+			}]
+		},
+			{
+				"type": "item",
+				"weight": 140,
+				"name": "minecraft:rotten_flesh",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 4
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 40,
+				"name": "minecraft:bone",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 4
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 18,
+				"name": "sevendaystomine:cloth",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 5
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 15,
+				"name": "sevendaystomine:scrap_axe",
+				"functions": [{
+					"function": "sevendaystomine:random_quality",
+					"quality": {
+						"min": 1,
+						"max": 600
+					}
+				},
+					{
+						"function": "set_damage",
+						"damage": {
+							"min": 0.5,
+							"max": 1
+						},
+						"conditions": [
+							{
+								"condition": "random_chance",
+								"chance": 0.5
+							}
+						]
+					}]
+			},
+			{
+				"type": "item",
+				"weight": 2,
+				"name": "sevendaystomine:steel_axe",
+				"functions": [{
+					"function": "sevendaystomine:random_quality",
+					"quality": {
+						"min": 1,
+						"max": 600
+					}
+				},
+					{
+						"function": "set_damage",
+						"damage": {
+							"min": 0.5,
+							"max": 1
+						},
+						"conditions": [
+							{
+								"condition": "random_chance",
+								"chance": 0.5
+							}
+						]
+					}]
+			},
+			{
+				"type": "item",
+				"weight": 20,
+				"name": "minecraft:iron_ingot",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 8
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 40,
+				"name": "sevendaystomine:torch",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 5
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 25,
+				"name": "sevendaystomine:bottled_beer",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 8
+					}
+				}]
+			},
+			{
+				"type": "item",
+				"weight": 25,
+				"name": "sevendaystomine:canned_ham",
+				"functions": [{
+					"function": "set_count",
+					"count": {
+						"min": 1,
+						"max": 4
+					}
+				}]
+			},
+			{
+				"type": "empty",
+				"weight": 300
+			}
+		]
+	}]
+}
